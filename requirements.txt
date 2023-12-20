@@ -1,0 +1,5 @@
+python-rtmidi
+numpy
+pyaudio #on mac requires: brew install portaudio
+aubio
+
