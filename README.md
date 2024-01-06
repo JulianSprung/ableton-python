@@ -1,20 +1,20 @@
 ## Projects / ToDos
 1. Create Overview Diagram (and components to resources below)
-2. Using Python as Midi Input Device: whistling/humming to live MIDI input
+2. Using Python as MIDI Input Device: whistling/humming to live MIDI input
 3. Using PyLive + Ableton OSC for ???
-4. Using Remote Scripts + my Akai MPK mini mk II to map:
+4. Using Python Remote Scripts for my Akai MPK mini mk II to map MIDI controls to Ableton[example](https://github.com/jorgalad/nano_remote_script):
     * Mode1: Producing
-        - 8 Min/Max Knobs
-        - 8+8 Pads as Notes
-        - 8+8 Pads as CC
-        - 8+8 Pads as Prog Change
+        - 8 Min/Max Knobs -> 
+        - 8+8 Pads as Notes ->
+        - 8+8 Pads as CC -> 
+        - 8+8 Pads as Prog Change -> 
     * Mode2: Playing
-        - 8 Min/Max Knobs
-        - 8+8 Pads as Notes
-        - 8+8 Pads as CC
-        - 8+8 Pads as Prog Change
+        - 8 Min/Max Knobs -> 
+        - 8+8 Pads as Notes -> 
+        - 8+8 Pads as CC -> 
+        - 8+8 Pads as Prog Change -> 
 
-## Mic to MIDI
+## 2. Using Python as MIDI Input: Mic to MIDI
 Install requirements with pip.
 Set `AUDIO_DEVICE_NAME` and `MIDI_PORT_NAME` in the `mic_to_midi.py` script.
 Run it.
@@ -50,6 +50,9 @@ Example outputs:
         D6  [note on]  Velocity:  99.0
         D6  [note off]
         Recording stopped.
+
+## 4. Using Python Remote Scripts
+To update fist the MIDI notes and control messages that are sent for each button/fader/key etc [see here](https://www.youtube.com/watch?v=goUUzwead2A) 
 
 ## Resources
 1. [Udemy Course: Learn Python through Music with Ableton Live](https://www.udemy.com/course/learning-python-with-ableton-live/) from [@jorgalad](https://github.com/jorgalad)
